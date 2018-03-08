@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestRetrofitApplication</string>
+    <string name="loginName_hint">账号</string>
+    <string name="loginName_input_hint">请输入账号</string>
+    <string name="password_hint">密码</string>
+    <string name="password_inout_hint">请输入密码</string>
+</resources>

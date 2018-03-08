@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--水平分方向割线-->
+    <style name="divider_h">
+        <item name="android:background">@color/app_divider</item>
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+
+    </style>
+
+    <!--竖直方向分割线-->
+    <style name="divider_v">
+        <item name="android:background">@color/app_divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+
+    <!--字体大小-->
+    <style name="textSizeBase">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!--文字-->
+    <style name="textBase" parent="textSizeBase">
+        <item name="android:textColor">@color/app_black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!--提示性文字-->
+    <style name="hintBase" parent="textSizeBase">
+        <item name="android:textColor">@color/app_hint</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!--输入框-->
+    <style name="editTextBase" parent="textSizeBase">
+        <item name="android:layout_marginLeft">@dimen/app_horizontal_edge</item>
+        <item name="android:layout_marginRight">@dimen/app_horizontal_edge</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColorHint">@color/app_hint</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <!--按钮-->
+    <style name="buttonBase" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/app_black</item>
+        <item name="background">@color/white</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ExpandListViewBase">
+        <item name="android:scrollbars">none</item>
+    </style>
+
+
+    <!--****************************************以下扩展************************************-->
+
+
+    <!--登录输入框-->
+    <style name="loginEditText" parent="editTextBase">
+        <item name="android:textColorHint">@color/app_hint</item>
+        <item name="android:background">@color/app_transparent</item>
+        <item name="android:textColor">@color/app_black</item>
+        <item name="android:maxLength">50</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+</resources>

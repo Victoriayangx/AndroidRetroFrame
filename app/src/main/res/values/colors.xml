@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--主色-->
+    <color name="app_base_color">#F36F2B</color>
+    <!--透明-->
+    <color name="app_transparent">#00000000</color>
+    <!--背景-->
+    <color name="app_background">#F2F2F2</color>
+    <!--加载成功-->
+    <color name="app_load_success">#61A364</color>
+    <!--黑色-->
+    <color name="app_black">#333333</color>
+    <!--次要的提示性文字-->
+    <color name="app_secondary_hint">#CCCCCC</color>
+    <!--分割线-->
+    <color name="app_divider">#D9D9D9</color>
+    <!--红色-->
+    <color name="app_red">#F74C31</color>
+    <!--白色-->
+    <color name="white">#FFFFFF</color>
+    <!--提示文字颜色-->
+    <color name="app_hint">#999999</color>
+    <!--流程节点和线颜色-->
+    <color name="flow_status">#3399FF</color>
+
+    <color name="red_57">#EA5B57</color>
+
+    <!--查看附件-->
+    <color name="view_file_color">#3399FF</color>
+
+
+    <!-- svcircleprogressbar -->
+    <!-- 覆盖颜色 -->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="bgColor_overlay_black">#95000000</color>
+    <!-- 窗口背景颜色 -->
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <!-- 标题颜色 -->
+    <color name="textColor_svprogresshuddefault_msg">#000000</color>
+    <color name="roundColor_svprogresshuddefault">#e5e5e5</color>
+    <color name="roundProgressColor_svprogresshuddefault">@android:color/black</color>
+
+    <color name="yellow">#FFFF00</color>
+</resources>

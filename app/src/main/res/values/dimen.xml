@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="app_horizontal_edge">15dp</dimen>
+
+    <dimen name="app_vertical_edge">10dp</dimen>
+
+    <dimen name="app_radius">2dp</dimen>
+
+
+    <dimen name="login_border">30dp</dimen>
+
+    <!-- svcircleprogressbar -->
+    <!--padding-->
+    <dimen name="padding_svprogresshuddefault">15dp</dimen>
+    <!--窗口最小宽度-->
+    <dimen name="size_minwidth_svprogresshuddefault">100dp</dimen>
+    <!--图片宽高-->
+    <dimen name="size_image_bigloading">60dp</dimen>
+    <!--图片宽高-->
+    <dimen name="size_image_smallloading">60dp</dimen>
+    <!--圆角-->
+    <dimen name="radius_svprogresshuddefault">25px</dimen>
+    <!--提示的文字大小-->
+    <dimen name="textSize_svprogresshuddefault_msg">15sp</dimen>
+    <dimen name="margintop_svprogresshuddefault_msg">10dp</dimen>
+
+</resources>
